@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "respec_shell",
+        "model": { "type": "minecraft:model", "model": "smeesmoo:item/veil_scroll" }
+      }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "minecraft:item/nautilus_shell" }
+  }
+}
